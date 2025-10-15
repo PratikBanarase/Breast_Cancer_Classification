@@ -5,7 +5,7 @@ import joblib
 # -----------------------------
 # Load the trained model
 # -----------------------------
-model = joblib.load("best_ml.pkl")  # Replace with your model file name
+model = joblib.load("best_ml(1).pkl")  # Replace with your model file name
 
 st.title("🩺 Breast Cancer Classification App")
 st.write("Enter the feature values below to predict the tumor class (0, 1, 2, or 3).")
